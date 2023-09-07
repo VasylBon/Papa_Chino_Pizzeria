@@ -1,0 +1,155 @@
+<div class="purchase close">
+    <div class="cart__container _container">
+        <div class="cart__detail close">
+            <div class="title">
+                <h2 class="title__text">КОРЗИНА</h2>
+            </div>
+            <div class="cart-detail__body">
+                <div class="column__title title-colum">
+                    <h3 class="title-colum__name">Назва</h3>
+                    <h3 class="title-colum__count">К-сть</h3>
+                    <h3 class="title-colum__price">Ціна</h3>
+                    <h3 class="title-colum__sum">Сума</h3>
+                </div>
+                <div class="cart__fill"></div>
+            </div>
+            <div class="cart__sum">
+                Загальна вартість: <span class="sum__number">0</span> грн
+            </div>
+            <div class="cart-detail__buttons">
+                <button class="btn__return">ПРОДОВЖИТИ ПОКУПКИ</button>
+                <button class="btn__order close">ОФОРМИТИ ЗАМОВЛЕННЯ</button>
+            </div>
+        </div>
+        <div class="delivery__detail close">
+            <div class="title">
+                <h2 class="title__text">ДОСТАВКА</h2>
+            </div>
+            <form
+                id="delivery-info"
+                method="post"
+            >
+                <div class="delivery-info__data">
+                    <input
+                        type="text"
+                        id="delivery-name"
+                        name="name"
+                        placeholder="*Ім'я"
+                    />
+                    <input
+                        type="tel"
+                        id="delivery-phone"
+                        name="phone"
+                        placeholder="*Телефон"
+                    />
+                </div>
+                <input
+                    type="text"
+                    id="delivery-location"
+                    name="address"
+                    placeholder="*Ваш адрес"
+                />
+                <textarea
+                    id="delivery-comment"
+                    name="comment"
+                    placeholder="Коментар"
+                ></textarea>
+                <h5 class="star_description">
+                    * Поле яке потрібно заповнити обов’язково
+                </h5>
+                <div class="additional__info">
+                    <div class="delivery-type">
+                        <div class="pick-up">
+                            <input
+                                type="radio"
+                                id="pick-up"
+                                name="deliveryType"
+                                value="Самовивіз"
+                                checked
+                            />
+                            <label for="pick-up">Самовивіз</label>
+                        </div>
+                        <div class="home">
+                            <input
+                                type="radio"
+                                id="home"
+                                name="deliveryType"
+                                value="Доставка додому"
+                            />
+                            <label for="home">Доставка додому</label>
+                        </div>
+                        <div class="door">
+                            <input
+                                type="radio"
+                                id="door"
+                                name="deliveryType"
+                                value="Дотавка до дверей"
+                            />
+                            <label for="door">Доcтавка до дверей</label>
+                        </div>
+                    </div>
+                    <label class="callback">
+                        <input
+                            type="checkbox"
+                            name="callback"
+                            value="Дзвінок"
+                        />
+                        Не телефонувати мені
+                    </label>
+                </div>
+                <div class="order__payment">
+                    <div class="summary__info">
+                        <div class="pay__type">
+                            <input
+                                type="radio"
+                                id="card"
+                                name="payment"
+                                value="Карта"
+                                checked
+                            />
+                            <label for="card">Карта</label>
+                            <input
+                                type="radio"
+                                id="cash"
+                                name="payment"
+                                value="Готівка"
+                            />
+                            <label for="cash">Готівка</label>
+                        </div>
+                        <div class="total__info">
+                            <div class="payment__sum-info">
+                                <h6 class="products__sum">
+                                    Вартість товарів:
+                                    <span class="sum__number">0</span> грн
+                                </h6>
+                                <h6 class="delivery__sum">
+                                    Вартість доставка:
+                                    <span class="delivery__sum-number">0</span> грн
+                                </h6>
+                            </div>
+                            <h2 class="total__sum">
+                                Загальна сума<br />
+                                <span
+                                    class="total__sum-number"
+                                    name="totalSum"
+                                    >0</span
+                                >
+                                грн
+                            </h2>
+                        </div>
+                    </div>
+                    <p class="error_info">Невірно введена інформація</p>
+                    <div class="cart-detail__buttons">
+                        <button class="btn__return">ПРОДОВЖИТИ ПОКУПКИ</button>
+                        <input
+                            class="btn__submit"
+                            type="submit"
+                            value="ХОЧУ СМАЧНЕНЬКЕ"
+                        />
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="pop-up__body close"></div>
+    </div>
+</div>

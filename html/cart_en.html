@@ -1,0 +1,98 @@
+<div class="purchase close">
+    <div class="cart__container _container">
+        <div class="cart__detail close">
+            <div class="title">
+                <h2 class="title__text">CART</h2>
+            </div>
+            <div class="cart-detail__body">
+                <div class="column__title title-colum">
+                    <h3 class="title-colum__name">Name</h3>
+                    <h3 class="title-colum__count">Amount</h3>
+                    <h3 class="title-colum__price">Price</h3>
+                    <h3 class="title-colum__sum">Sum</h3>
+                </div>
+                <div class="cart__fill">
+
+                </div>
+            </div>
+            <div class="cart__sum">
+                The total cost: <span class="sum__number">0</span> UAH
+            </div>
+            <div class="cart-detail__buttons">
+                <button class="btn__return">CONTINUE SHOPPING</button>
+                <button class="btn__order close">PLACE AN ORDER</button>
+            </div>
+        </div>
+        <div class="delivery__detail close">
+            <div class="title">
+                <h2 class="title__text">DELIVERY</h2>
+            </div>
+            <form id="delivery-info" method="post">
+                <div class="delivery-info__data">
+                    <input type="text" id="delivery-name" name="name" placeholder="*Name" />
+                    <input type="tel" id="delivery-phone" name="phone" placeholder="*Phone" />
+                </div>
+                <input type="text" id="delivery-location" name="location" placeholder="*Your address" />
+                <textarea id="delivery-comment" name="comment" placeholder="Comment"></textarea>
+                <h5 class="star_description">
+                    * Field that you want to fill in a must
+                </h5>
+                <div class="additional__info">
+                    <div class="delivery-type">
+                        <label>
+                            <input type="radio" name="pick-up" value="pick-up" />
+                            Self-Exemption
+                        </label>
+                        <label>
+                            <input type="radio" name="home" value="home" />
+                            Delivery home
+                        </label>
+                        <label>
+                            <input type="radio" name="door" value="door" />
+                            Delivery to the door
+                        </label>
+                    </div>
+                    <label class="callback">
+                        <input type="checkbox" name="callback" value="callback" />
+                        Don't call me
+                    </label>
+                </div>
+                <div class="order__payment">
+                    <div class="summary__info">
+                        <div class="pay__type">
+                            <label class="card">
+                                <input type="radio" name="card" value="card" />
+                                Card
+                            </label>
+                            <label class="cash">
+                                <input type="radio" name="cash" value="cash" />
+                                Cash
+                            </label>
+                        </div>
+                        <div class="total__info">
+                            <div class="payment__sum-info">
+                                <h6 class="products__sum">
+                                    Cost of goods: <span class="sum__number">0</span> грнUAH
+                                </h6>
+                                <h6 class="delivery__sum">
+                                    Cost Shipping: <span class="delivery__sum-number">0</span> UAH
+                                </h6>
+                            </div>
+                            <h2 class="total__sum">
+                                Total cost<br />
+                                <span class="total__sum-number">0</span> UAH
+                            </h2>
+                        </div>
+                    </div>
+                    <p class="error_info">Incorrectly entered informationation</p>
+                    <div class="cart-detail__buttons">
+                        <button class="btn__return">CONTINUE SHOPPING</button>
+                        <input class="btn__order" type="submit" value="I WANT SOMETHING TASTY" />
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="pop-up__body close">
+        </div>
+    </div>
+</div>

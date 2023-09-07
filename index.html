@@ -1,42 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
     <head>
-    <meta charset="UTF-8" />
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    />
-    <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="img/favicon/apple-touch-icon.png"
-    />
-    <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="img/favicon/favicon-32x32.png"
-    />
-    <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href="img/favicon/favicon-16x16.png"
-    />
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css?_v=20230722035429"
-    />
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css?_v=20230722035429"
-    />
-    <link
-        rel="stylesheet"
-        href="css/style.min.css?_v=20230722035429"
-    />
-    <title>Papa Chino Pizzeria | Головна</title>
-</head>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css?_v=20230908013223"
+        />
+        <meta charset="UTF-8" />
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+/>
+<title>Papa Chino Pizzeria | Головна</title>
+<link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="img/favicon/apple-touch-icon.png"
+/>
+<link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="img/favicon/favicon-32x32.png"
+/>
+<link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="img/favicon/favicon-16x16.png"
+/>
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css?_v=20230908013223"
+/>
+<link
+    rel="stylesheet"
+    href="css/style.min.css?_v=20230908013223"
+/>
+
+    </head>
 
     <body>
         <div class="wraper">
@@ -65,7 +66,7 @@
             </div>
             <div class="header__logo">
                 <a
-                    href="#"
+                    href="index.html"
                     class="logo"
                 >
                     <img
@@ -92,13 +93,13 @@
             <ul class="menu__list">
                 <li class="header__language">
                     <a
-                        href="#"
-                        class="language__ukr active"
+                        href='index.html'
+                        class="language ua"
                         >Укр</a
                     >
                     <a
-                        href="#"
-                        class="language__eng"
+                        href='index_en.html'
+                        class="language en"
                         >Eng</a
                     >
                 </li>
@@ -111,42 +112,42 @@
                 </li>
                 <li class="menu__item">
                     <a
-                        href="pizza.html"
+                        href="pizza_ua.html"
                         class="menu__link"
                         >Піца</a
                     >
                 </li>
                 <li class="menu__item">
                     <a
-                        href="drinks.html"
+                        href="drinks_ua.html"
                         class="menu__link"
                         >Напої</a
                     >
                 </li>
                 <li class="menu__item">
                     <a
-                        href="souces.html"
+                        href="sauces_ua.html"
                         class="menu__link"
                         >Соуси</a
                     >
                 </li>
                 <li class="menu__item">
                     <a
-                        href="delivery.html"
+                        href="delivery_ua.html"
                         class="menu__link"
                         >Доставка</a
                     >
                 </li>
                 <li class="menu__item">
                     <a
-                        href="contacts.html"
+                        href="contacts_ua.html"
                         class="menu__link"
                         >Контакти</a
                     >
                 </li>
                 <li class="menu__item">
                     <a
-                        href="about.html"
+                        href="about_ua.html"
                         class="menu__link"
                         >Про нас</a
                     >
@@ -194,19 +195,19 @@
             </div>
             <div class="item-info__language">
                 <a
-                    href="#"
-                    class="language__ukr active"
+                    href='index.html'
+                    class="language ua"
                     >Укр</a
                 >
                 <a
-                    href="#"
-                    class="language__eng"
+                    href='index_en.html'
+                    class="language en"
                     >Eng</a
                 >
             </div>
             <div class="item-info__cart">
                 <a
-                    href="#"
+                    href=""
                     class="info__cart"
                 >
                     <img
@@ -214,15 +215,170 @@
                         alt="cart"
                         class="cart__icon icon"
                     />
-                    <p class="cart__price">2870 <span>₴</span></p>
+                    <p class="cart__price"><span class="sum__number">0</span>₴</p>
                 </a>
             </div>
         </div>
     </div>
 </header>
-
+ <div class="purchase close">
+    <div class="cart__container _container">
+        <div class="cart__detail close">
+            <div class="title">
+                <h2 class="title__text">КОРЗИНА</h2>
+            </div>
+            <div class="cart-detail__body">
+                <div class="column__title title-colum">
+                    <h3 class="title-colum__name">Назва</h3>
+                    <h3 class="title-colum__count">К-сть</h3>
+                    <h3 class="title-colum__price">Ціна</h3>
+                    <h3 class="title-colum__sum">Сума</h3>
+                </div>
+                <div class="cart__fill"></div>
+            </div>
+            <div class="cart__sum">
+                Загальна вартість: <span class="sum__number">0</span> грн
+            </div>
+            <div class="cart-detail__buttons">
+                <button class="btn__return">ПРОДОВЖИТИ ПОКУПКИ</button>
+                <button class="btn__order close">ОФОРМИТИ ЗАМОВЛЕННЯ</button>
+            </div>
+        </div>
+        <div class="delivery__detail close">
+            <div class="title">
+                <h2 class="title__text">ДОСТАВКА</h2>
+            </div>
+            <form
+                id="delivery-info"
+                method="post"
+            >
+                <div class="delivery-info__data">
+                    <input
+                        type="text"
+                        id="delivery-name"
+                        name="name"
+                        placeholder="*Ім'я"
+                    />
+                    <input
+                        type="tel"
+                        id="delivery-phone"
+                        name="phone"
+                        placeholder="*Телефон"
+                    />
+                </div>
+                <input
+                    type="text"
+                    id="delivery-location"
+                    name="address"
+                    placeholder="*Ваш адрес"
+                />
+                <textarea
+                    id="delivery-comment"
+                    name="comment"
+                    placeholder="Коментар"
+                ></textarea>
+                <h5 class="star_description">
+                    * Поле яке потрібно заповнити обов’язково
+                </h5>
+                <div class="additional__info">
+                    <div class="delivery-type">
+                        <div class="pick-up">
+                            <input
+                                type="radio"
+                                id="pick-up"
+                                name="deliveryType"
+                                value="Самовивіз"
+                                checked
+                            />
+                            <label for="pick-up">Самовивіз</label>
+                        </div>
+                        <div class="home">
+                            <input
+                                type="radio"
+                                id="home"
+                                name="deliveryType"
+                                value="Доставка додому"
+                            />
+                            <label for="home">Доставка додому</label>
+                        </div>
+                        <div class="door">
+                            <input
+                                type="radio"
+                                id="door"
+                                name="deliveryType"
+                                value="Дотавка до дверей"
+                            />
+                            <label for="door">Доcтавка до дверей</label>
+                        </div>
+                    </div>
+                    <label class="callback">
+                        <input
+                            type="checkbox"
+                            name="callback"
+                            value="Дзвінок"
+                        />
+                        Не телефонувати мені
+                    </label>
+                </div>
+                <div class="order__payment">
+                    <div class="summary__info">
+                        <div class="pay__type">
+                            <input
+                                type="radio"
+                                id="card"
+                                name="payment"
+                                value="Карта"
+                                checked
+                            />
+                            <label for="card">Карта</label>
+                            <input
+                                type="radio"
+                                id="cash"
+                                name="payment"
+                                value="Готівка"
+                            />
+                            <label for="cash">Готівка</label>
+                        </div>
+                        <div class="total__info">
+                            <div class="payment__sum-info">
+                                <h6 class="products__sum">
+                                    Вартість товарів:
+                                    <span class="sum__number">0</span> грн
+                                </h6>
+                                <h6 class="delivery__sum">
+                                    Вартість доставка:
+                                    <span class="delivery__sum-number">0</span> грн
+                                </h6>
+                            </div>
+                            <h2 class="total__sum">
+                                Загальна сума<br />
+                                <span
+                                    class="total__sum-number"
+                                    name="totalSum"
+                                    >0</span
+                                >
+                                грн
+                            </h2>
+                        </div>
+                    </div>
+                    <p class="error_info">Невірно введена інформація</p>
+                    <div class="cart-detail__buttons">
+                        <button class="btn__return">ПРОДОВЖИТИ ПОКУПКИ</button>
+                        <input
+                            class="btn__submit"
+                            type="submit"
+                            value="ХОЧУ СМАЧНЕНЬКЕ"
+                        />
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="pop-up__body close"></div>
+    </div>
+</div>
 
             <main class="main">
+                
                 <section class="page__container _container">
                     <div class="title">
                         <h2 class="title__text">ПРОПОЗИЦІЇ ТИЖНЯ</h2>
@@ -238,36 +394,40 @@
                                             href="#"
                                             class="item-product__photo"
                                         >
-                                            <!-- prettier-ignore -->
-                                            <picture><source srcset="img/pizza/four_seasons.webp" type="image/webp"><img class="product_img" src="img/pizza/four_seasons.jpg" alt="four_seasons"></picture>
-                                            <div class="discount">
-                                                <span class="value"> -15%</span>
-                                            </div>
+                                            <img
+                                                class="product_img"
+                                                src="img/pizza/chorizo.png"
+                                                alt="chorizo"
+                                            />
                                         </a>
+                                        <div class="discount">
+                                            <span class="value">11%</span>
+                                        </div>
+                                        '
                                         <h3 class="item-product__title">
-                                            Піца<br />
-                                            Чотири Сезони
+                                            Піца Чорізо
                                         </h3>
                                         <h4 class="item-product__description">
-                                            соус томатний / сир моцарела /
-                                            салямі баварська / шинка королівська
-                                            / печериці / маслини / орегано
+                                            томатний соус / сир моцарела / ковбаса
+                                            чорізо / перець пепероні / часникова олія
                                         </h4>
                                         <div class="item-product__buttons">
                                             <div class="small__size">
-                                                <p class="size">Ø 30 см</p>
+                                                <p class="size s-size">Ø 30 см</p>
                                                 <button
-                                                    class="item-product__button"
+                                                    class="item-product__button small-size-button want"
+                                                    data-product-id="product_1"
                                                 >
-                                                    150 грн
+                                                    156 грн
                                                 </button>
                                             </div>
                                             <div class="big__size">
-                                                <p class="size">Ø 40 см</p>
+                                                <p class="size b-size">Ø 40 см</p>
                                                 <button
-                                                    class="item-product__button"
+                                                    class="item-product__button big-size-button"
+                                                    data-product-id="product_1"
                                                 >
-                                                    195 грн
+                                                    218 грн
                                                 </button>
                                             </div>
                                         </div>
@@ -282,37 +442,139 @@
                                             href="#"
                                             class="item-product__photo"
                                         >
-                                            <!-- prettier-ignore -->
-                                            <picture><source srcset="img/pizza/apetytna.webp" type="image/webp"><img class="product_img" src="img/pizza/apetytna.jpg" alt="apetytna"></picture>
-                                            <div class="discount">
-                                                <span class="value"> -18%</span>
-                                            </div>
+                                            <img
+                                                class="product_img"
+                                                src="img/pizza/chorizo.png"
+                                                alt="chorizo"
+                                            />
                                         </a>
+                                        <div class="discount">
+                                            <span class="value">12%</span>
+                                        </div>
+                                        '
                                         <h3 class="item-product__title">
-                                            Піца<br />
-                                            Апетитна
+                                            Піца Чотири Сири
+                                        </h3>
+                                        <h4 class="item-product__description">
+                                            томатний соус / сир моцарела подвійна /
+                                            сир гауда / сир дорблю / грязький сир /
+                                            соус песто / рукола / часникова олія
+                                        </h4>
+                                        <div class="item-product__buttons">
+                                            <div class="small__size">
+                                                <p class="size s-size">Ø 30 см</p>
+                                                <button
+                                                    class="item-product__button small-size-button want"
+                                                    data-product-id="product_1"
+                                                >
+                                                    176 грн
+                                                </button>
+                                            </div>
+                                            <div class="big__size">
+                                                <p class="size b-size">Ø 40 см</p>
+                                                <button
+                                                    class="item-product__button big-size-button"
+                                                    data-product-id="product_1"
+                                                >
+                                                    224 грн
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <button class="item_product-cart">
+                                            В КОРЗИНУ
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="discount__card swiper-slide">
+                                    <div class="product__item item-product">
+                                        <a
+                                            href="#"
+                                            class="item-product__photo"
+                                        >
+                                            <img
+                                                class="product_img"
+                                                src="img/pizza/four_cheese.png"
+                                                alt="four_cheese"
+                                            />
+                                        </a>
+                                        <div class="discount">
+                                            <span class="value">15%</span>
+                                        </div>
+                                        '
+                                        <h3 class="item-product__title">
+                                            Піца Чорізо
+                                        </h3>
+                                        <h4 class="item-product__description">
+                                            томатний соус / сир моцарела / ковбаса
+                                            чорізо / перець пепероні / часникова олія
+                                        </h4>
+                                        <div class="item-product__buttons">
+                                            <div class="small__size">
+                                                <p class="size s-size">Ø 30 см</p>
+                                                <button
+                                                    class="item-product__button small-size-button want"
+                                                    data-product-id="product_1"
+                                                >
+                                                    149 грн
+                                                </button>
+                                            </div>
+                                            <div class="big__size">
+                                                <p class="size b-size">Ø 40 см</p>
+                                                <button
+                                                    class="item-product__button big-size-button"
+                                                    data-product-id="product_1"
+                                                >
+                                                    208 грн
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <button class="item_product-cart">
+                                            В КОРЗИНУ
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="discount__card swiper-slide">
+                                    <div class="product__item item-product">
+                                        <a
+                                            href="#"
+                                            class="item-product__photo"
+                                        >
+                                            <img
+                                                class="product_img"
+                                                src="img/pizza/mexican.png"
+                                                alt="mexican"
+                                            />
+                                        </a>
+                                        <div class="discount">
+                                            <span class="value">10%</span>
+                                        </div>
+                                        '
+                                        <h3 class="item-product__title">
+                                            Піца Мексиканська
                                         </h3>
                                         <h4 class="item-product__description">
                                             соус томатний / сир моцарела / шинка
-                                            королівська / курка маринована /
-                                            томати свіжі / кукурудза / ананаси /
-                                            орегано
+                                            яловича / свинячий фарш / перець
+                                            консервований / перець халапеньо / перець
+                                            чілі / цибуля
                                         </h4>
                                         <div class="item-product__buttons">
                                             <div class="small__size">
-                                                <p class="size">Ø 30 см</p>
+                                                <p class="size s-size">Ø 30 см</p>
                                                 <button
-                                                    class="item-product__button"
+                                                    class="item-product__button small-size-button want"
+                                                    data-product-id="product_1"
                                                 >
-                                                    165 грн
+                                                    194 грн
                                                 </button>
                                             </div>
                                             <div class="big__size">
-                                                <p class="size">Ø 40 см</p>
+                                                <p class="size b-size">Ø 40 см</p>
                                                 <button
-                                                    class="item-product__button"
+                                                    class="item-product__button big-size-button"
+                                                    data-product-id="product_1"
                                                 >
-                                                    205 грн
+                                                    248 грн
                                                 </button>
                                             </div>
                                         </div>
@@ -327,125 +589,42 @@
                                             href="#"
                                             class="item-product__photo"
                                         >
-                                            <!-- prettier-ignore -->
-                                            <picture><source srcset="img/pizza/polo.webp" type="image/webp"><img class="product_img" src="img/pizza/polo.jpg" alt="polo"></picture>
-                                            <div class="discount">
-                                                <span class="value"> -16%</span>
-                                            </div>
+                                            <img
+                                                class="product_img"
+                                                src="img/pizza/special.png"
+                                                alt="special"
+                                            />
                                         </a>
+                                        <div class="discount">
+                                            <span class="value">14%</span>
+                                        </div>
+                                        '
                                         <h3 class="item-product__title">
-                                            Піца<br />
-                                            Поло
+                                            Піца Особлива
                                         </h3>
                                         <h4 class="item-product__description">
-                                            соус вершковий / сир моцарела /
-                                            курка маринована / кукурудза /
-                                            томати свіжі / орегано
+                                            соус томатний / сир моцарела / шинка /
+                                            цибуля / пекінська капуста / помідори
+                                            черрі / соус ремулад / грінки / листя
+                                            буряка
                                         </h4>
                                         <div class="item-product__buttons">
                                             <div class="small__size">
-                                                <p class="size">Ø 30 см</p>
+                                                <p class="size s-size">Ø 30 см</p>
                                                 <button
-                                                    class="item-product__button"
-                                                >
-                                                    145 грн
-                                                </button>
-                                            </div>
-                                            <div class="big__size">
-                                                <p class="size">Ø 40 см</p>
-                                                <button
-                                                    class="item-product__button"
+                                                    class="item-product__button small-size-button want"
+                                                    data-product-id="product_1"
                                                 >
                                                     190 грн
                                                 </button>
                                             </div>
-                                        </div>
-                                        <button class="item_product-cart">
-                                            В КОРЗИНУ
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="discount__card swiper-slide">
-                                    <div class="product__item item-product">
-                                        <a
-                                            href="#"
-                                            class="item-product__photo"
-                                        >
-                                            <!-- prettier-ignore -->
-                                            <picture><source srcset="img/pizza/salmon.webp" type="image/webp"><img class="product_img" src="img/pizza/salmon.jpg" alt="salmon"></picture>
-                                            <div class="discount">
-                                                <span class="value"> -21%</span>
-                                            </div>
-                                        </a>
-                                        <h3 class="item-product__title">
-                                            Піца<br />
-                                            з Лососем
-                                        </h3>
-                                        <h4 class="item-product__description">
-                                            соус вершковий / сир моцарела
-                                            подвійна / сир маскарпоне / лосось
-                                            слабосолений / рукола / бальзамічний
-                                            крем / лимон
-                                        </h4>
-                                        <div class="item-product__buttons">
-                                            <div class="small__size">
-                                                <p class="size">Ø 30 см</p>
-                                                <button
-                                                    class="item-product__button"
-                                                >
-                                                    180 грн
-                                                </button>
-                                            </div>
                                             <div class="big__size">
-                                                <p class="size">Ø 40 см</p>
+                                                <p class="size b-size">Ø 40 см</p>
                                                 <button
-                                                    class="item-product__button"
+                                                    class="item-product__button big-size-button"
+                                                    data-product-id="product_1"
                                                 >
-                                                    220 грн
-                                                </button>
-                                            </div>
-                                        </div>
-                                        <button class="item_product-cart">
-                                            В КОРЗИНУ
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="discount__card swiper-slide">
-                                    <div class="product__item item-product">
-                                        <a
-                                            href="#"
-                                            class="item-product__photo"
-                                        >
-                                            <!-- prettier-ignore -->
-                                            <picture><source srcset="img/pizza/mexico.webp" type="image/webp"><img class="product_img" src="img/pizza/mexico.jpg" alt="mexico"></picture>
-                                            <div class="discount">
-                                                <span class="value"> -11%</span>
-                                            </div>
-                                        </a>
-                                        <h3 class="item-product__title">
-                                            Піца<br />
-                                            Мексика
-                                        </h3>
-                                        <h4 class="item-product__description">
-                                            соус томатний гострий / сир моцарела
-                                            / салямі баварська / цибуля червона
-                                            / томати свіжі / орегано
-                                        </h4>
-                                        <div class="item-product__buttons">
-                                            <div class="small__size">
-                                                <p class="size">Ø 30 см</p>
-                                                <button
-                                                    class="item-product__button"
-                                                >
-                                                    170 грн
-                                                </button>
-                                            </div>
-                                            <div class="big__size">
-                                                <p class="size">Ø 40 см</p>
-                                                <button
-                                                    class="item-product__button"
-                                                >
-                                                    205 грн
+                                                    237 грн
                                                 </button>
                                             </div>
                                         </div>
@@ -459,7 +638,11 @@
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
                     </div>
-                    <button class="all__pizzas">ПЕРЕГЛЯНУТИ ВСІ</button>
+                    <a
+                        href="./pizza_ua.html"
+                        class="all__pizzas"
+                        >ПЕРЕГЛЯНУТИ ВСІ</a
+                    >
                 </section>
                 <section class="feedback">
                     <div class="feedback__image _ibg">
@@ -475,14 +658,12 @@
                                         <img
                                             class="item-feedback__icon"
                                             src="img/header/male.svg"
-                                            alt="male"
+                                            alt="gender"
                                         />
                                     </div>
                                     <div class="item-feedback__text-info">
                                         <div class="item-feedback__main-info">
-                                            <div class="main-info__name">
-                                                Андрій Данилюк
-                                            </div>
+                                            <div class="main-info__name">Сергій</div>
                                             <div class="main-info__rank">
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
@@ -491,25 +672,19 @@
                                                 <i class="fas fa-star"></i>
                                             </div>
                                         </div>
-                                        <div
-                                            class="item-feedback__addition-info"
-                                        >
+                                        <div class="item-feedback__addition-info">
                                             <div class="addition-info__adress">
-                                                м. Ужгород,<br />вул. Степана
-                                                Бандери, 75
+                                                м. Ужгород, вул. Ліни Костенко
                                             </div>
                                             <div class="addition-info__date">
-                                                12.07.2021
+                                                2021-10-05
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item-feedback__text">
-                                    Дуже затишно, цікавий інтер'єр та завжди
-                                    повний зал. Ціни середні, замовлення чекали
-                                    хвилин 15 -20. Поки чекаєте на замовлення є
-                                    можливість подивитись як готують нашу страву
-                                    професіанали.
+                                    Дякую за якісний сервіс та обслуговування. Піцу
+                                    доставили швидко! Обов'язково замовлю ще раз :))
                                 </div>
                             </div>
                             <div class="feedback__item item-feedback">
@@ -518,39 +693,33 @@
                                         <img
                                             class="item-feedback__icon"
                                             src="img/header/male.svg"
-                                            alt="male"
+                                            alt="gender"
                                         />
                                     </div>
                                     <div class="item-feedback__text-info">
                                         <div class="item-feedback__main-info">
-                                            <div class="main-info__name">
-                                                Сергій Гринець
-                                            </div>
+                                            <div class="main-info__name">Сергій</div>
                                             <div class="main-info__rank">
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
-                                                <i class="far fa-star"></i>
+                                                <i class="fas fa-star"></i>
                                             </div>
                                         </div>
-                                        <div
-                                            class="item-feedback__addition-info"
-                                        >
+                                        <div class="item-feedback__addition-info">
                                             <div class="addition-info__adress">
-                                                м. Ужгород,<br />вул. Ліни
-                                                Костенко, 112
+                                                м. Ужгород, вул. Ліни Костенко
                                             </div>
                                             <div class="addition-info__date">
-                                                05.09.2021
+                                                2021-10-05
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item-feedback__text">
-                                    Дякую за якісний сервіс та обслуговування.
-                                    Піцу доставили швидко! Обов'язково замовлю
-                                    ще раз :))
+                                    Дякую за якісний сервіс та обслуговування. Піцу
+                                    доставили швидко! Обов'язково замовлю ще раз :))
                                 </div>
                             </div>
                             <div class="feedback__item item-feedback">
@@ -558,15 +727,13 @@
                                     <div class="item-feedback__sex">
                                         <img
                                             class="item-feedback__icon"
-                                            src="img/header/female.svg"
-                                            alt="female"
+                                            src="img/header/male.svg"
+                                            alt="gender"
                                         />
                                     </div>
                                     <div class="item-feedback__text-info">
                                         <div class="item-feedback__main-info">
-                                            <div class="main-info__name">
-                                                Наталія Кук
-                                            </div>
+                                            <div class="main-info__name">Сергій</div>
                                             <div class="main-info__rank">
                                                 <i class="fas fa-star"></i>
                                                 <i class="fas fa-star"></i>
@@ -575,30 +742,109 @@
                                                 <i class="fas fa-star"></i>
                                             </div>
                                         </div>
-                                        <div
-                                            class="item-feedback__addition-info"
-                                        >
+                                        <div class="item-feedback__addition-info">
                                             <div class="addition-info__adress">
-                                                м. Ужгород,<br />прос. Свободи,
-                                                48
+                                                м. Ужгород, вул. Ліни Костенко
                                             </div>
                                             <div class="addition-info__date">
-                                                20.12.2021
+                                                2021-10-05
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item-feedback__text">
-                                    Найкраща доставка піци в місті. Доставка не
-                                    запізнюється, часто навіть раніше привозять.
-                                    Замовляти можна через сайт, мессенджери або
-                                    по телефону - обираєш зручний варіант.
+                                    Дякую за якісний сервіс та обслуговування. Піцу
+                                    доставили швидко! Обов'язково замовлю ще раз :))
                                 </div>
                             </div>
                         </div>
                         <button class="leave__feedback">ЗАЛИШИТИ ВІДГУК</button>
                     </div>
                 </section>
+
+                <!-- FEEDBACK FORM -->
+                <div class="pop-up__feedback close">
+                    <div class="pop-up__body">
+                        <div class="pop-up__content close">
+                            <a
+                                href=""
+                                class="pop-up__close fa fa-times"
+                                aria-hidden="true"
+                            ></a>
+                            <div class="title">
+                                <h2 class="title__text">ВАШ ВІДГУК</h2>
+                            </div>
+
+                            <form
+                                action="test.html"
+                                id="feedback-info"
+                                method="post"
+                            >
+                                <div class="feedback-info__data">
+                                    <input
+                                        type="text"
+                                        id="feedback-name"
+                                        name="name"
+                                        placeholder="*Ім'я"
+                                    />
+                                    <input
+                                        type="tel"
+                                        id="feedback-phone"
+                                        name="phone"
+                                        placeholder="*Телефон"
+                                    />
+                                </div>
+                                <input
+                                    type="text"
+                                    id="feedback-address"
+                                    name="address"
+                                    placeholder="Ваш адрес"
+                                />
+                                <div class="feedback-info__sex">
+                                    <input
+                                        type="radio"
+                                        id="male"
+                                        class="feedback-gender"
+                                        name="gender"
+                                        value="male"
+                                        checked
+                                    />
+                                    <label for="male">Чоловічий</label>
+                                    <input
+                                        type="radio"
+                                        id="female"
+                                        class="feedback-gender"
+                                        name="gender"
+                                        value="female"
+                                    />
+                                    <label for="female">Жіночий</label>
+                                </div>
+                                <textarea
+                                    id="feedback-comment"
+                                    name="comment"
+                                    placeholder="*Ваш відгук"
+                                ></textarea>
+                                <div class="feedback-info__rank">
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <p class="error_message">
+                                    Невірно введена інформація
+                                </p>
+                                <button
+                                    id="feedback-submit"
+                                    type="submit"
+                                >
+                                    ВІДПРАВИТИ
+                                </button>
+                            </form>
+                        </div>
+                        <div class="pop-up__thanks close"></div>
+                    </div>
+                </div>
             </main>
         </div>
         <footer class="footer">
@@ -680,7 +926,7 @@
 </footer>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js?_v=20230722035429"></script>
-        <script src="js/app.min.js?_v=20230722035429"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js?_v=20230908013223"></script>
+        <script src="js/app.min.js?_v=20230908013223"></script>
     </body>
 </html>
